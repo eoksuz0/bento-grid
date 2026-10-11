@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    grid-template-rows: repeat(4, 150px);
+    gap: 16px;
+    padding: 20px;
+    background-color: #dfe1e2;
+    grid-template-areas: 
+    "kupon font tabela telefon"
+    "uygulama logo logo telefon"
+    "uygulama logo logo sise"
+    "afis afis slogan sise";
+    
+
+}
+
+.box {
+    background-color: #420606;
+    border-radius: 12px;
+    color: white;
+    border: blue solid 2px;
+    
+}
+
+.kupon { grid-area: kupon; text-align: center; }
+.font { grid-area: font; text-align: center;}
+.tabela { grid-area: tabela; text-align: center;}
+.telefon { grid-area: telefon; text-align: center;}
+.uygulama { grid-area: uygulama; text-align: center;}
+.logo { grid-area: logo; text-align: center;}
+.afis { grid-area: afis; text-align: center;}
+.slogan { grid-area: slogan; text-align: center;}
+.sise { grid-area: sise; text-align: center;}
